@@ -1,173 +1,115 @@
 # 🎓 Student Placement Prediction using Machine Learning
 
-A Machine Learning-based web application that predicts whether a student is likely to be placed based on academic and personal attributes. The model is trained using historical student placement data and deployed with a simple web interface for real-time predictions.
+A Machine Learning project that predicts whether a student is likely to be placed based on academic and personal information. This project was developed as part of my internship to understand the complete machine learning workflow, from data preprocessing to model evaluation.
 
----
+## 📌 Project Overview
 
-## 📌 Features
+The project analyses student placement data and trains a classification model to predict placement status. It includes:
 
-- Predicts student placement status
-- User-friendly web interface
-- Trained Machine Learning model
-- Fast and accurate predictions
-- Easy to deploy and use
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature selection
+- Model training
+- Model evaluation
+- Prediction of placement status
 
----
-
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 - Python
+- Jupyter Notebook
 - Pandas
 - NumPy
+- Matplotlib
 - Scikit-learn
-- Flask
-- HTML
-- CSS
-- Joblib/Pickle
 
----
-
-## 📂 Project Structure
+## 📂 Repository Structure
 
 ```
 Student-Placement-Prediction/
-│── data/
-│   └── placement.csv
-│── models/
-│   └── model.pkl
-│── static/
-│── templates/
-│   └── index.html
-│── app.py
-│── train.py
-│── requirements.txt
-│── README.md
-│── screenshots/
-│   ├── home.png
-│   └── prediction.png
+│
+├── data/
+│   └── placementdata.csv
+│
+├── notebook/
+│   └── student_placement_pred.ipynb
+│
+├── report/
+│   └── Student Placement Prediction Using Machine Learning.docx
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
----
+## 🚀 How to Run
 
-## 🚀 Installation
-
-### Clone the repository
+1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Student-Placement-Prediction.git
+git clone https://github.com/Patelprincekumar2007/Student-Placement-Prediction.git
 ```
 
-### Go to project directory
+2. Open the project folder.
 
-```bash
-cd Student-Placement-Prediction
-```
-
-### Install dependencies
+3. Install the required libraries.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the application
+4. Open the notebook.
 
 ```bash
-python app.py
+jupyter notebook
 ```
 
-Open your browser and visit:
-
-```
-http://127.0.0.1:5000
-```
-
----
+5. Run all notebook cells.
 
 ## 📊 Dataset
 
-The project uses a student placement dataset containing various academic and personal attributes such as:
+The dataset contains information such as:
 
 - Gender
-- SSC Percentage
-- HSC Percentage
+- Secondary Education Percentage
+- Higher Secondary Percentage
 - Degree Percentage
 - Work Experience
 - Specialisation
 - MBA Percentage
 - Placement Status
 
----
+## 📈 Machine Learning Workflow
 
-## 🤖 Machine Learning Workflow
+- Data Collection
+- Data Cleaning
+- Data Preprocessing
+- Exploratory Data Analysis
+- Feature Engineering
+- Train-Test Split
+- Model Training
+- Model Evaluation
+- Prediction
 
-1. Data Collection
-2. Data Preprocessing
-3. Feature Engineering
-4. Train-Test Split
-5. Model Training
-6. Model Evaluation
-7. Model Saving
-8. Web Deployment
+## 📷 Output
 
----
+The notebook demonstrates the complete training process and evaluates the performance of the machine learning model using standard classification metrics.
 
-## 📈 Model Performance
+## 🎯 Future Improvements
 
-| Metric | Value |
-|---------|------:|
-| Accuracy | XX% |
-| Precision | XX% |
-| Recall | XX% |
-| F1 Score | XX% |
-
-> Replace the values above with your actual model results.
-
----
-
-## 📸 Screenshots
-
-### Home Page
-
-Add your screenshot here.
-
-```
-screenshots/home.png
-```
-
-### Prediction Result
-
-Add your screenshot here.
-
-```
-screenshots/prediction.png
-```
-
----
-
-## 💡 Future Improvements
-
-- Add multiple ML algorithms for comparison
-- Improve UI/UX
-- Deploy on Render or Railway
-- Add user authentication
-- Store prediction history in a database
-
----
+- Develop a Flask web application for predictions.
+- Compare multiple machine learning algorithms.
+- Improve prediction accuracy through hyperparameter tuning.
+- Deploy the model on a cloud platform.
 
 ## 👨‍💻 Author
 
 **Patel Princekumar**
 
-B.Tech Computer Science & Engineering
-
+B.Tech Computer Science and Engineering  
 CHARUSAT University
 
 GitHub: https://github.com/Patelprincekumar2007
 
-LinkedIn: Add your LinkedIn profile here.
-
----
-
 ## 📄 License
 
-This project is created for educational and internship purposes.
+This project is intended for educational and internship purposes.
